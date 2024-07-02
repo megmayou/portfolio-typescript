@@ -10,7 +10,7 @@ const Particle = () => {
     await loadSlim(engine);
   }, []);
 
-  const particlesLoaded = (container: Container | undefined) => {
+  const particlesLoaded = async (container?: Container) => {
     console.log(container);
   };
 
