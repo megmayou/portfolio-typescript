@@ -11,7 +11,7 @@ const MobileNav = ({ navBar, closeNav }: Props) => {
   const navAnimation = navBar ? "translate-x-0" : "translate-x-[-100%]";
   return (
     <section
-      className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[10000] bg-[#092635]`}
+      className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[100000] bg-[#092635]`}
     >
       <menu
         className="w-[full] h-[full] flex flex-col items-center

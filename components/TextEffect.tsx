@@ -16,7 +16,7 @@ const TextEffect = () => {
       ]}
       wrapper="span"
       speed={50}
-      className="text-[2rem] md:text-[3rem] text-[#55e6a5] font-bold "
+      className="text-[1.5rem] md:text-[2rem] text-[#55e6a5] font-bold "
       repeat={Infinity}
     />
   );
