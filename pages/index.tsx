@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import MobileNav from "@/components/navbar/MobileNav";
 import Navbar from "@/components/navbar/Navbar";
 import Projets from "@/components/Projets";
-import Skills from "@/components/Skills";
+import Skills from "@/components/skills/Skills";
 
 import React, { useState } from "react";
 
