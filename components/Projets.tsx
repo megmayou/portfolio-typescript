@@ -9,9 +9,9 @@ import panClick from "@/public/image/pan'click.jpg";
 
 const Projets = () => {
   return (
-    <div className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem] ">
+    <div className="bg-[#09101a] pt-[4rem] md:pt-[8rem] pb-[5rem] ">
       <h1 className="text-center text-white text-[1.5rem] sm:text-[2.5rem] md:text-[3rem] font-bold uppercase ">
-        Mes <span className="text-yellow-400">Projets</span>
+        Pro<span className="text-yellow-400">jets</span>
       </h1>
       <section className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
         <article>

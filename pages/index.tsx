@@ -1,9 +1,9 @@
-import About from "@/components/About";
 import Hero from "@/components/Hero";
 import MobileNav from "@/components/navbar/MobileNav";
 import Navbar from "@/components/navbar/Navbar";
 import Projets from "@/components/Projets";
-import Skills from "@/components/skills/Skills";
+import Skills from "@/components/trainings/Trainings";
+import TechnologiesLanguages from "@/components/technologies_languages/TechnologiesLanguages";
 
 import React, { useState } from "react";
 
@@ -21,8 +21,8 @@ const HomePage = () => {
           <Hero />
         </article>
         <article className="relative z-[30] ">
-          <About />
           <Projets />
+          <TechnologiesLanguages />
           <Skills />
         </article>
       </section>
