@@ -15,7 +15,7 @@ const MobileNav = ({ navBar, closeNav }: Props) => {
     >
       <menu
         className="w-[full] h-[full] flex flex-col items-center
-      justify-center "
+      justify-center my-[6rem] "
       >
         {navigationLinks.map((link) => {
           return (

@@ -7,7 +7,7 @@ interface Props {
 
 const SkillsItem = ({ title, year, degree }: Props) => {
   return (
-    <article className="mb-[4rem] md:mb-[8rem]">
+    <article className="mb-[4rem] md:mb-[8rem] h-[10rem]">
       <span className="px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5] ">
         {year}
       </span>

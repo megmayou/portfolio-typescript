@@ -1,8 +1,3 @@
-// import {
-//   CodeBracketSquareIcon,
-//   CommandLineIcon,
-//   RocketLaunchIcon,
-// } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import streetArtHunter from "@/public/image/street_art_hunter.jpg";
 import panClick from "@/public/image/pan'click.jpg";
@@ -18,7 +13,7 @@ const Projets = () => {
           <div className="bg-orange-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem] ">
             <a href="https://npm-code.remote-6.wilders.dev/">
               <Image src={streetArtHunter} alt="page home street art Hunter" />
-              {/* <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8] " /> */}
+
               <h2 className="text-[1.5rem] mb:text-[2rem] mt-[1.5rem] mb-[1.5rem]  ">
                 Street Art Hunter
               </h2>
@@ -34,15 +29,12 @@ const Projets = () => {
         <article>
           <div className="bg-red-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem] ">
             <a href="https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-Gridception-P2-LOMASHOW">
-              {/* <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8] " /> */}
               <h2 className="text-[1.5rem] mb:text-[2rem] mt-[1.5rem] mb-[1.5rem]  ">
                 Movinder
               </h2>
               <p className="text-[1rem] text-[#d3d2d2] font-normal  ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur culpa mollitia itaque molestias natus, sequi
-                cupiditate obcaecati eaque numquam! Ullam sed exercitationem
-                eligendi doloremque illo minus tempora itaque. Vitae, aperiam?
+                Une soirée film entre ami(e)s ou avec ton/ta chéri(e) et vous ne
+                trouvez pas d&apos;idée de film, Movinder est là pour vous.
               </p>
             </a>
           </div>
@@ -50,8 +42,6 @@ const Projets = () => {
         <article>
           <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem] ">
             <a href="https://wildcodeschool-2024-02.github.io/JS-RemoteFR-P1-StackQAMP/">
-              {" "}
-              {/* <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8] " /> */}
               <Image src={panClick} alt="page home pan click" />
               <h2 className="text-[1.5rem] mb:text-[2rem] mt-[1.5rem] mb-[1.5rem]  ">
                 Pan&apos;Click

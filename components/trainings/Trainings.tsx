@@ -8,7 +8,7 @@ const Skills = () => {
       <h1 className="text-center text-white text-[1.5rem] sm:text-[2.5rem] md:text-[3rem] font-bold uppercase">
         Formations & <span className="text-yellow-400">Diplômes</span>
       </h1>
-      <section className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center ">
+      <section className="w-[90%] h-[60rem] mx-auto pt-[4rem] md:pt-[4rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center ">
         <article>
           <TrainingsItem
             title="Titre professionnel Développeur web et web mobile"
