@@ -17,7 +17,7 @@ const Navbar = ({ openNav }: Props) => {
           {navigationLinks.map((link) => {
             return (
               <li key={link.id} className="nav-link">
-                {link.label}
+                <a href={"#" + link.link}>{link.label}</a>
               </li>
             );
           })}
