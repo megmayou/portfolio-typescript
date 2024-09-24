@@ -10,15 +10,15 @@ const navigationLinks: Array<Link> = [
   },
   {
     id: 2,
-    label: "A propos",
-  },
-  {
-    id: 3,
     label: "Projets",
   },
   {
+    id: 3,
+    label: "Technologies",
+  },
+  {
     id: 4,
-    label: "Contact",
+    label: "Formations",
   },
 ];
 
