@@ -4,7 +4,7 @@ import TrainingsItem from "@/components/trainings/section/TrainingsItem";
 
 const Skills = () => {
   return (
-    <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a] ">
+    <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a] " id="skills">
       <h1 className="text-center text-white text-[1.5rem] sm:text-[2.5rem] md:text-[3rem] font-bold uppercase">
         Formations & <span className="text-yellow-400">Diplômes</span>
       </h1>
